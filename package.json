@@ -1,0 +1,31 @@
+{
+  "name": "stalker-loader-service",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "bin/start",
+    "build": "bin/build",
+    "jest": "bin/jest",
+    "prettier:run": "bin/prettier-fix",
+    "prettier:check": "bin/prettier",
+    "tsc:check": "bin/typescript",
+    "eslint:check": "bin/eslint",
+    "check-all": "bin/check-all"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
