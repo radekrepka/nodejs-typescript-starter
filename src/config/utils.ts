@@ -12,6 +12,4 @@ const normalizePort = (val?: string) => {
     return DEFAULT_PORT;
 };
 
-export {
-    normalizePort,
-}
+export { normalizePort };

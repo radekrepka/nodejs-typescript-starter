@@ -12,7 +12,7 @@ export class App {
         this.routes();
     }
 
-    public config(port: number ) {
+    public config(port: number) {
         this.expressApp.set('port', port);
         this.expressApp.use((req: Request, res: Response, next: NextFunction) => {
             res.header('Access-Control-Allow-Origin', config.accessControlAllowOrigin);
